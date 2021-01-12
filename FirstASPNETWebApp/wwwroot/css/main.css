@@ -1,0 +1,32 @@
+﻿/*Preston Loveland
+Assignment 1 IS 414
+Group 11 Section 1 */
+body {
+    font-family: 'Bradley Hand ITC';
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkcyan;
+    font-weight: bolder;
+}
+h1 {
+    font-family: Broadway;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+label{
+    font-size: 20px;
+    color: black;
+    width: 150px;
+    display: inline-block;
+}
+
+ul.quiz-props li {
+    list-style-type: none;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin-left :50px;
+}
