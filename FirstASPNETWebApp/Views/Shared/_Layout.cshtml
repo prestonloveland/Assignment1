@@ -1,0 +1,33 @@
+﻿<!--Preston Loveland
+    Assignment 1 IS 414
+    Group 11 Section 1-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="~/css/main.css" rel="stylesheet" />
+    <title>@ViewBag.Title</title>
+    <link rel="icon" href="../img/favicon.PNG">
+</head>
+<body>
+    <!--Title-->
+    <header>
+        <h1>Preston Loveland</h1>
+        <menu>
+            <ul>
+                <li><a asp-controller="Main" asp-action="Index">Home</a></li>
+                <li><a asp-controller="Main" asp-action="GradeCalculator">Grade Calculator</a></li>
+            </ul>
+        </menu>
+    </header>
+    <!--Retrieve from other files-->
+    @RenderBody()
+
+    <!--Footer-->
+    <footer>
+        Preston Loveland &copy; 2021
+    </footer>
+    <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/gpa.js"></script>
+</body>
+</html>

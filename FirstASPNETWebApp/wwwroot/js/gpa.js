@@ -4,11 +4,11 @@ Group 11 Section 1 */
 function calculate_grade()
 {
     //declare variables
-    var assignments = document.getElementById("assignments").value;
-    var group_projects = document.getElementById("group-project").value;
-    var quizzes = document.getElementById("quizzes").value;
-    var exams = document.getElementById("exams").value;
-    var intex = document.getElementById("intex").value;
+    var assignments = $("#assignments")[0].value;
+    var group_projects = $("#group-project")[0].value;
+    var quizzes = $("#quizzes")[0].value;
+    var exams = $("#exams")[0].value;
+    var intex = $("#intex")[0].value;
     var final_grade = 0;
     var letter_grade = "";
     //calculate grade
